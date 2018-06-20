@@ -29,7 +29,7 @@ namespace UDPListener
             Console.WriteLine("Waiting for broadcast");
             Console.WriteLine("AES Encryption key: " + EncryptionKey);
             //Console.WriteLine("Init Vector: " + InitVector);
-            Console.WriteLine("Listening Port: " + listenPort);
+            Console.WriteLine("Listening Port: " +  listenPort);
             while (true)
             {
                 Listen();
